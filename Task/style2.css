@@ -1,0 +1,83 @@
+:root {
+    --negro: #393939;
+    --dark-purple: #24053e;
+    --eucalyptus: #44ffa1;
+    --davys-grey: #584d62;
+    --white: #ffffff;
+    --ghost-white: #fcf8ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(./assets/images/background-hero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+    height: 600px;
+    width: 100%;
+/* position: absolute;
+top: 0;
+right: 0;
+ left: 0;  */
+    
+}
+
+.nav{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apply{
+color: white;
+font-size: 20px;
+text-decoration-color: aquamarine;
+/* text-decoration-skip-ink: auto;
+text-decoration-skip: ink; */
+text-underline-offset:4px ;
+margin-right: 50px;
+}
+
+.text{
+    text-align: center;
+    color:#fcf8ff ;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.txt{
+    display: inline;
+}
+.under-line{
+    display: inline;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #44ffa1;
+    cursor: pointer;
+}
+
+.learn{
+    color: #24053e;
+text-decoration: none;
+}
+
+.ring-one{
+    margin-top: -150px;
+    margin-left: -150px;
+}
+
+.ring-two{
+    margin-top: -150px;
+    margin-left: 1000px;
+}
